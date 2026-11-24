@@ -1,40 +1,18 @@
-## Ensemble Methods: Random Forest vs AdaBoost comparison
-
-
-
+## Experiment-8.Ensemble Methods: Random Forest vs AdaBoost comparison
 
 ## AIM:
 
-
-
-
 Train RandomForest and AdaBoost classifiers on the breast cancer dataset and compare accuracies.
-
-
-
 
 ## ALGORITHM:
 
-
-
-
 RandomForest = bagging many trees; AdaBoost = sequential boosting of weak learners focusing on hard examples.
-
-
-
 
 ## THEORY:
 
-
-
-
 Bagging reduces variance (averaging), boosting reduces bias (sequential focus on errors).
 
-
-
-
 ## PROGRAM:
-
 
 ```
 
@@ -53,24 +31,15 @@ ab.predict(Xte)),4))
 
 ```
 
-
-
 ## OUTPUT:
 
 ```
 
-
 RF accuracy: 0.9708
 AdaBoost accuracy: 0.9708
 
-
 ```
 
-
-
 ## RESULT:
-
-
-
 
 Students compare bagging vs boosting; performance depends on data and hyperparameters
